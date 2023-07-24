@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    position: relative;
+    max-width: 600px;
+    height: 600px;
+    margin-top: 3%;
+    border: 2px solid black;
+    color: blanchedalmond;
+}
+.top{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+.bottom{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    margin-top: 50%;
+}
+.book{
+    position: absolute;
+    width: 60%;
+    height: 90%;
+    margin: 2.5% 28% 0 28%;
+    background-image:url(https://i.pinimg.com/736x/8e/05/5e/8e055ee601ee886559792445f28a4765.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b1{
+    position: absolute;
+    width: 10%;
+    border: 1px solid black;
+    text-align: center;
+}
